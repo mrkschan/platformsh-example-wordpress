@@ -24,7 +24,7 @@ web:
     document_root: "/wp"
     # The front-controller script to send non-static requests to.
     passthru: "index.php"
-    # Wordpress has mutliple roots (wp-admin) so the following is required
+    # Wordpress has multiple roots (wp-admin) so the following is required
     index_files: [ "index.php" ]
 
 # The size of the persistent disk of the application (in MB).
